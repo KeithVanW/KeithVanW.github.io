@@ -1,0 +1,237 @@
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+
+a {
+  color: #009999;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #005a5a;
+  text-decoration: none;
+}
+
+
+/*--------------------------------------------------------------
+# Hero
+--------------------------------------------------------------*/
+#hero h1 {
+    font-family: 'Norican', cursive;
+}
+
+#hero h2 {
+    font-size: 1rem;
+}
+
+#hero .btn-scroll:hover {
+  color:#005a5a
+}
+
+.fade-in {
+    animation: fadeIn 2s;
+    -webkit-animation: fadeIn 2s;
+    -moz-animation: fadeIn 2s;
+    -o-animation: fadeIn 2s;
+    -ms-animation: fadeIn 2s;
+  }
+  
+  @keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  @-moz-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  @-webkit-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  @-o-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  @-ms-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+
+  .translate-horizontal {
+    animation: moveX 1s;
+    -webkit-animation: moveX 1s;
+    -moz-animation: moveX 1s;
+    -o-animation: moveX 1s;
+    -ms-animation: moveX 1s;
+  }
+
+  @keyframes moveX {
+    0% { translate: 30rem}
+    100% { translate: 0 }
+  }
+  @-moz-keyframes fadeIn {
+    0% { translate: 30rem}
+    100% { translate: 0 }
+  }
+  @-webkit-keyframes fadeIn {
+    0% { translate: 30rem}
+    100% { translate: 0 }
+  }
+  @-o-keyframes fadeIn {
+    0% { translate: 30rem}
+    100% { translate: 0 }
+  }
+  @-ms-keyframes fadeIn {
+    0% { translate: 30rem}
+    100% { translate: 0 }
+  }
+
+  /*--------------------------------------------------------------
+# Button To Top
+--------------------------------------------------------------*/
+
+.back-to-top {
+  background: rgb(0,153,153);
+  background: linear-gradient(90deg, rgba(0,153,153,1) 0%, rgba(19,93,93,1) 100%); 
+}
+
+.back-to-top:hover {
+  background: rgb(0,153,153);
+  background: linear-gradient(90deg, rgba(0,153,153,1) 0%, rgba(19,93,93,1) 60%, rgba(19,93,93,1) 100%); 
+  color: #fff;
+}
+
+  /*--------------------------------------------------------------
+# Links
+--------------------------------------------------------------*/
+
+.navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
+  color: #009999;
+}
+
+  /*--------------------------------------------------------------
+# About Me
+--------------------------------------------------------------*/
+
+.about .content ul i {
+  color: #009999;
+}
+
+.about .skills-content .progress-bar {
+  background: rgb(0,153,153);
+  background: linear-gradient(90deg, rgba(0,153,153,1) 0%, rgba(0,236,122,1) 100%); 
+}
+
+  /*--------------------------------------------------------------
+# My Resume
+--------------------------------------------------------------*/
+
+.resume .resume-item h4 {
+  color: #009999;
+}
+
+.download-cv{
+  cursor: pointer;
+  display: inline-block;
+  margin: 0 10px 10px 10px;
+  font-weight: 600;
+  font-size: 1.00rem;
+  line-height: 1;
+  padding: 7px 10px;
+  text-transform: uppercase;
+  color: #009999;
+  transition: all 0.3s ease-in-out;
+  border: 2px solid white;
+  margin-top: 2rem;
+}
+
+.download-cv-link {
+  color: #444444;
+}
+
+.download-cv:hover, .download-cv:active {
+  color: #009999;
+  border-color: #009999;
+}
+
+/*--------------------------------------------------------------
+# My Portfolio
+--------------------------------------------------------------*/
+
+.portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
+  color: #009999;
+  border-color: #009999;
+}
+
+.portfolio .portfolio-item .portfolio-info .preview-link:hover, .portfolio .portfolio-item .portfolio-info .details-link:hover {
+  color: #009999;
+}
+
+/*--------------------------------------------------------------
+# Portfolio Details
+--------------------------------------------------------------*/
+
+.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet {
+  border: 1px solid #009999;
+}
+.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
+  background-color: #009999;
+}
+
+/*--------------------------------------------------------------
+# Contact Me
+--------------------------------------------------------------*/
+
+.contact .info-box i.bx {
+  font-size: 24px;
+  color: #009999;
+  border-radius: 50%;
+  border: 1px solid #009999;
+  padding: 15px;
+  background: #ffffff;
+}
+
+.contact .social-links a:hover {
+  color: #fff;
+  border-color: #009999;
+  background: #009999;
+}
+
+.contact .php-email-form input::focus, .contact .php-email-form textarea::focus {
+  background-color: #009999;
+}
+
+.contact .php-email-form button[type=submit] {
+  background: rgb(0,153,153);
+  background: linear-gradient(90deg, rgba(0,153,153,1) 0%, rgba(19,93,93,1) 100%); 
+}
+
+.contact .php-email-form button[type=submit]:hover {
+  background: rgb(0,153,153);
+  background: linear-gradient(90deg, rgba(0,153,153,1) 0%, rgba(19,93,93,1) 60%, rgba(19,93,93,1) 100%); 
+  color: #fff;
+}
+
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+
+#footer .social-links a {
+  background: #009999;
+  color: #fff;
+}
+
+#footer .social-links a:hover {
+  background: #006e6e;
+  color: #fff;
+}
+#footer h3 {
+  font-size: 36px;
+  font-weight: 700;
+  color: #fff;
+  position: relative;
+  font-family: 'Norican', cursive;
+  padding: 0;
+  margin: 0 0 15px 0;
+}
+
